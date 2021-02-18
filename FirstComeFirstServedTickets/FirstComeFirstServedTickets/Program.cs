@@ -26,42 +26,44 @@ namespace FirstComeFirstServedTickets
         {
             Queue q = new Queue();
             Random randomGenerator = new Random();
-            int totalTickets = 8000;
-            int lineSize = randomGenerator.Next(1, 1000);
+            int totalTickets = 10;
+            //int totalTickets = 100;
+            //int totalTickets = 1000;
+            int lineSize = randomGenerator.Next(1, 1001);
             int[] numCustomers = new int[lineSize];
             int numCustomersWhoPurchased = 0;
+
+            Console.WriteLine("Total tickets: " + totalTickets);
+            Console.WriteLine("Number of customers: " + lineSize + "\n");
 
             foreach(int cust in numCustomers)
             {
                 q.Enqueue(cust);
             }
 
-            foreach(int cust in q)
+            while(q.Count > 0)
             {
-                int numTicketsPurchased = randomGenerator.Next(1, 4);
+                int numTicketsPurchased = randomGenerator.Next(1, 5);
                 Console.WriteLine("Customer wants to purchase " + numTicketsPurchased + " tickets." + "\n");
 
                 if(totalTickets >= numTicketsPurchased)
                 {
                     totalTickets -= numTicketsPurchased;
                     numCustomersWhoPurchased++;
-
-                    if(q.Count > 0)
-                    {
-                        q.Dequeue();
-                        Console.WriteLine("Happy customers (who were able to purchase tickets): " + numCustomersWhoPurchased);
-                        Console.WriteLine("Tickets remaining: " + totalTickets + "\n");
-                    }
-                    else
-                    {
-                        Console.WriteLine("There were more tickets than customers. Number of customers: " + numCustomersWhoPurchased + ", Number of remaining tickets: " + totalTickets);
-                    }
+                    q.Dequeue();
+                    Console.WriteLine("Happy customers (who were able to purchase tickets): " + numCustomersWhoPurchased);
+                    Console.WriteLine("Tickets remaining: " + totalTickets + "\n");
                 }
                 else
                 {
                     Console.WriteLine("Error: Customer tried to purchase more tickets than there are available. Customer wanted " + numTicketsPurchased + " tickets, but there were only " + totalTickets + " tickets remaining.");
-                    break;
+                    Environment.Exit(0);
                 }
+            }
+            if(q.Count == 0)
+            {
+                Console.WriteLine("There were more tickets than customers. Number of customers: " + numCustomersWhoPurchased + ", Number of remaining tickets: " + totalTickets);
+                Environment.Exit(0);
             }
         }
     }
