@@ -1,0 +1,11 @@
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\bin\Debug\netcoreapp3.1\FirstComeFirstServedTickets.exe
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\bin\Debug\netcoreapp3.1\FirstComeFirstServedTickets.deps.json
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\bin\Debug\netcoreapp3.1\FirstComeFirstServedTickets.runtimeconfig.json
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\bin\Debug\netcoreapp3.1\FirstComeFirstServedTickets.runtimeconfig.dev.json
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\bin\Debug\netcoreapp3.1\FirstComeFirstServedTickets.dll
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\bin\Debug\netcoreapp3.1\FirstComeFirstServedTickets.pdb
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\obj\Debug\netcoreapp3.1\FirstComeFirstServedTickets.csprojAssemblyReference.cache
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\obj\Debug\netcoreapp3.1\FirstComeFirstServedTickets.AssemblyInfoInputs.cache
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\obj\Debug\netcoreapp3.1\FirstComeFirstServedTickets.AssemblyInfo.cs
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\obj\Debug\netcoreapp3.1\FirstComeFirstServedTickets.dll
+C:\Users\Kabrina\Documents\GitHub Repos\First-Come-First-Served-Tickets\FirstComeFirstServedTickets\FirstComeFirstServedTickets\obj\Debug\netcoreapp3.1\FirstComeFirstServedTickets.pdb
